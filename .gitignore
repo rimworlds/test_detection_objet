@@ -1,0 +1,48 @@
+# Fichiers système
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+testDetection/
+env/
+
+# Fichiers de configuration
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
+
+# Dossiers générés
+__pycache__/
+dist/
+build/
+*.egg-info/
+*.egg/
+
+# Fichiers de l'IDE
+.idea/
+.vscode/
+
+# Fichiers de configuration pour différents éditeurs/IDE
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.komodoedit/
+.komodoide/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.swp
+*~.nib
+
+# Autres
+.DS_Store
+Thumbs.db
