@@ -20,9 +20,6 @@ def preprocess(image):
 
 def postprocess(output_data):
 
-    # Assure-toi que la forme de output_data est celle attendue
-    assert len(output_data.shape) == 3, "La forme de output_data n'est pas celle attendue"
-
     # Tu peux ajuster le reste de cette fonction en fonction des besoins de ton modèle
     detection_threshold = 0.8
     detected_boxes = output_data[0]  # Accède au premier tableau dans la dimension 0
