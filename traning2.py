@@ -2,7 +2,7 @@ from tflite_model_maker import object_detector
 from tflite_model_maker.object_detector import DataLoader
 
 # Chemin vers le dossier principal contenant les sous-dossiers d'images
-data_dir = 'chemin/vers/dataset'
+data_dir = 'Aircraft Carrier'
 
 # Créer un DataLoader à partir des images dans les sous-dossiers
 data_loader = DataLoader.from_folder(data_dir)
