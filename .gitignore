@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 
 # Environnements virtuels
-testDetection/
+venv_name/
 env/
 
 # Fichiers de configuration
@@ -46,3 +46,5 @@ build/
 # Autres
 .DS_Store
 Thumbs.db
+labelImg/
+models/
